@@ -1,0 +1,141 @@
+*{margin: 0; font-family: JetBrainsMono;}
+
+/*Les polices*/
+@font-face {
+    font-family: "JetBrainsMono"; 	src: url('Font/JetBrainsMono.ttf');
+}
+@font-face {
+    font-family: "JetBrainsMonoItalic"; 	src: url('Font/JetBrainsMonoItalic.ttf');
+}
+@font-face {
+    font-family: "zerohour"; 	src: url('Font/zerohour.ttf');
+}
+
+body{background-color: #152634;}
+
+.back-office-title {
+    padding: 10px 0 10px 10px;
+    color: white;
+}
+
+.back-office-nav {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px white;
+}
+
+.back-office-nav > ul {
+    margin-top: 15px;
+}
+
+.back-office-nav > ul > li > a {
+    text-decoration: none;
+}
+
+.back-office-nav > ul > li > a:hover {
+    color: #999999;
+}
+
+.back-office-navigation {
+    list-style: none;
+    display: inline;
+}
+
+.back-office-navigation > a {
+    color: white;
+}
+
+.back-office-main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+
+.login {
+    text-align: center;
+    margin: 100px auto 0;
+    width: 400px;
+    height: 350px;
+    border: solid 1px white;
+    border-radius: 20px;
+}
+
+.login > h2 {
+    color: white;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-inputs > span {
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login-inputs > input {
+    width: 300px;
+    height: 25px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.login-inputs > button {
+    margin: 10px auto 0;
+    height: 25px;
+    width: 150px;
+}
+
+
+.back-office-article-count,
+.back-office-project-count {
+    border: solid 1px white;
+    background-color: #999999;
+    height: 200px;
+    width: 300px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 25px;
+}
+
+.back-office-main-content > section > button {
+    margin-top: 10px;
+}
+
+.article-count,
+.project-count {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.back-office-btn {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 10px;
+}
+
+.back-office-table {
+    text-align: center;
+}
+
+.back-office-table > table {
+    margin: 50px auto 0;
+}
+
+td {
+    padding: 10px 0;
+    border-bottom: solid .5px white;
+    color: white;
+    width: 200px;
+}

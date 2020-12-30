@@ -13,6 +13,10 @@
 
 
 /* Menu navigation Horizontale*/
+html {
+    height: 100%;
+}
+
 body{background-color: #152634;}
 
 .div-navBarre{
