@@ -15,9 +15,10 @@ button.addEventListener('click', function () {
             console.log('connexion done! : ', response.status);
             setTimeout(() => {
                 location.href = '../back-office/main-menu.html';
-            }, 3500);
+            }, 2500);
         })
         .catch((error) => {
             console.log('An error is appeared : ', error.response.data);
         });
+
 });

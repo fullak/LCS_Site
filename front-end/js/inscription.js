@@ -13,6 +13,9 @@ button.addEventListener('click', function () {
         .post("http://localhost:3000/user/signup", user)
         .then((response) => {
             console.log('Utilisateur ajouté à la base de donnée, status : ', response.status);
+            setTimeout(() => {
+                location.href = '../back-office/login.html';
+            }, 2500);
         })
         .catch((error) => {
             console.log('An error is appeared : ', error.response.data);
